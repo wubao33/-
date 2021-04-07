@@ -1,0 +1,64 @@
+.magnifier{
+    content: "";
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: none;
+}
+.magnifier-body{
+    margin: 10rem 1.5rem 0 1.5rem;
+    width: calc(100vw - 3rem);
+    height:calc(100vh - 20rem);
+    position: relative;
+}
+.bigImgBox{
+    width: calc(100vw - 3rem);
+    height:calc(100vh - 20rem);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+#bigImg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+
+}
+.imgHiden{
+    overflow: hidden;
+}
+.magnifier—close,.magnifier-0,.magnifier-1{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+}
+.magnifier—close{
+    top:-2rem;
+    right: 0;
+}
+.magnifier-del{
+    display: block;
+    color: #FFFFFF;
+   font-size: 2rem;
+    line-height: 2rem;
+    text-align: center
+}
+.magnifier-0{
+    top:-2rem;
+    left: 0;
+}
+.magnifier-1{
+    top:-2rem;
+    left:2rem;
+}

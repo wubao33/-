@@ -1,0 +1,13 @@
+<section class="magnifier">
+    <div class="magnifier-body">
+        <div class="bigImgBox">
+      <img id="bigImg">
+        </div>
+        <span class="magnifier—close">
+      <span class="magnifier-del">×</span>
+ </span>
+        <span class="magnifier-0"><span class="magnifier-del">-</span></span>
+        <span class="magnifier-1"><span class="magnifier-del">+</span></span>
+    </div>
+
+</section>
